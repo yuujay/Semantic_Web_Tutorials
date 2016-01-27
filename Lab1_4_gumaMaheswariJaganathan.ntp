@@ -1,0 +1,34 @@
+<file:///C:/Users/Gowtham/workspace/Web_Semantics/myrdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/PersonalProfileDocument> .
+<file:///C:/Users/Gowtham/workspace/Web_Semantics/myrdf> <http://xmlns.com/foaf/0.1/maker> <file:///C:/Users/Gowtham/workspace/Web_Semantics/myrdf#me> .
+<file:///C:/Users/Gowtham/workspace/Web_Semantics/myrdf> <http://xmlns.com/foaf/0.1/primaryTopic> <file:///C:/Users/Gowtham/workspace/Web_Semantics/myrdf#me> .
+<file:///C:/Users/Gowtham/workspace/Web_Semantics/myrdf> <http://webns.net/mvcb/generatorAgent> <http://www.ldodds.com/foaf/foaf-a-matic> .
+<file:///C:/Users/Gowtham/workspace/Web_Semantics/myrdf> <http://webns.net/mvcb/errorReportsTo> <mailto:leigh@ldodds.com> .
+<file:///C:/Users/Gowtham/workspace/Web_Semantics/myrdf#me> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<file:///C:/Users/Gowtham/workspace/Web_Semantics/myrdf#me> <http://xmlns.com/foaf/0.1/name> "Gowtham Uma Maheswari Jaganathan" .
+<file:///C:/Users/Gowtham/workspace/Web_Semantics/myrdf#me> <http://xmlns.com/foaf/0.1/title> "Mr" .
+<file:///C:/Users/Gowtham/workspace/Web_Semantics/myrdf#me> <http://xmlns.com/foaf/0.1/givenname> "Gowtham" .
+<file:///C:/Users/Gowtham/workspace/Web_Semantics/myrdf#me> <http://xmlns.com/foaf/0.1/family_name> "Uma Maheswari Jaganathan" .
+<file:///C:/Users/Gowtham/workspace/Web_Semantics/myrdf#me> <http://xmlns.com/foaf/0.1/nick> "UJ" .
+<file:///C:/Users/Gowtham/workspace/Web_Semantics/myrdf#me> <http://xmlns.com/foaf/0.1/mbox> <mailto:gxu150030@utdallas.edu> .
+<file:///C:/Users/Gowtham/workspace/Web_Semantics/myrdf#me> <http://xmlns.com/foaf/0.1/homepage> <http://www.utdallas.edu/> .
+<file:///C:/Users/Gowtham/workspace/Web_Semantics/myrdf#me> <http://xmlns.com/foaf/0.1/depiction> <file:///C:/Users/Gowtham/workspace/Web_Semantics/ujg.jpg> .
+<file:///C:/Users/Gowtham/workspace/Web_Semantics/myrdf#me> <http://xmlns.com/foaf/0.1/phone> <tel:469-951-9394> .
+<file:///C:/Users/Gowtham/workspace/Web_Semantics/myrdf#me> <http://xmlns.com/foaf/0.1/workplaceHomepage> <http://www.utdallas.edu/> .
+<file:///C:/Users/Gowtham/workspace/Web_Semantics/myrdf#me> <http://xmlns.com/foaf/0.1/workInfoHomepage> <file:///C:/Users/Gowtham/workspace/Web_Semantics/Graduate Student> .
+<file:///C:/Users/Gowtham/workspace/Web_Semantics/myrdf#me> <http://xmlns.com/foaf/0.1/schoolHomepage> <http://www.utdallas.edu/> .
+<file:///C:/Users/Gowtham/workspace/Web_Semantics/myrdf#me> <http://xmlns.com/foaf/0.1/knows> _:B431c8561X3A1528115d58cX3AX2D7fff .
+<file:///C:/Users/Gowtham/workspace/Web_Semantics/myrdf#me> <http://xmlns.com/foaf/0.1/knows> _:B431c8561X3A1528115d58cX3AX2D7ffe .
+<file:///C:/Users/Gowtham/workspace/Web_Semantics/myrdf#me> <http://xmlns.com/foaf/0.1/knows> _:B431c8561X3A1528115d58cX3AX2D7ffd .
+_:B431c8561X3A1528115d58cX3AX2D7fff <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:B431c8561X3A1528115d58cX3AX2D7fff <http://xmlns.com/foaf/0.1/name> "Barack Obama" .
+_:B431c8561X3A1528115d58cX3AX2D7fff <http://xmlns.com/foaf/0.1/mbox> <mailto:POTUS@us.com> .
+_:B431c8561X3A1528115d58cX3AX2D7ffe <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:B431c8561X3A1528115d58cX3AX2D7ffe <http://xmlns.com/foaf/0.1/name> "Alex Furguson" .
+_:B431c8561X3A1528115d58cX3AX2D7ffe <http://xmlns.com/foaf/0.1/mbox> <mailto:sirallex@utdallas.edu> .
+_:B431c8561X3A1528115d58cX3AX2D7ffd <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:B431c8561X3A1528115d58cX3AX2D7ffd <http://xmlns.com/foaf/0.1/name> "Genelia" .
+_:B431c8561X3A1528115d58cX3AX2D7ffd <http://xmlns.com/foaf/0.1/mbox> <mailto:geni@gmail.com> .
+<http://utdallas/semclass#KevenAtes> <http://www.w3.org/2001/vcard-rdf/3.0#FN> "Keven L. Ates" .
+<http://utdallas/semclass#KevenAtes> <http://www.w3.org/2001/vcard-rdf/3.0#BDAY> "01-Jan-1901" .
+<http://utdallas/semclass#KevenAtes> <http://www.w3.org/2001/vcard-rdf/3.0#EMAIL> "atescomp@utdallas.edu" .
+<http://utdallas/semclass#KevenAtes> <http://www.w3.org/2001/vcard-rdf/3.0#TITLE> "Senior Lecturer" .

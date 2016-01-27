@@ -1,0 +1,48 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix admin: <http://webns.net/mvcb/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+
+<file:///C:/Users/Gowtham/workspace/Web_Semantics/myrdf>
+        a                     foaf:PersonalProfileDocument ;
+        admin:errorReportsTo  <mailto:leigh@ldodds.com> ;
+        admin:generatorAgent  <http://www.ldodds.com/foaf/foaf-a-matic> ;
+        foaf:maker            <file:///C:/Users/Gowtham/workspace/Web_Semantics/myrdf#me> ;
+        foaf:primaryTopic     <file:///C:/Users/Gowtham/workspace/Web_Semantics/myrdf#me> .
+
+<file:///C:/Users/Gowtham/workspace/Web_Semantics/myrdf#me>
+        a                       foaf:Person ;
+        foaf:depiction          <file:///C:/Users/Gowtham/workspace/Web_Semantics/ujg.jpg> ;
+        foaf:family_name        "Uma Maheswari Jaganathan" ;
+        foaf:givenname          "Gowtham" ;
+        foaf:homepage           <http://www.utdallas.edu/> ;
+        foaf:knows              [ a          foaf:Person ;
+                                  foaf:mbox  <mailto:POTUS@us.com> ;
+                                  foaf:name  "Barack Obama"
+                                ] ;
+        foaf:knows              [ a          foaf:Person ;
+                                  foaf:mbox  <mailto:sirallex@utdallas.edu> ;
+                                  foaf:name  "Alex Furguson"
+                                ] ;
+        foaf:knows              [ a          foaf:Person ;
+                                  foaf:mbox  <mailto:geni@gmail.com> ;
+                                  foaf:name  "Genelia"
+                                ] ;
+        foaf:mbox               <mailto:gxu150030@utdallas.edu> ;
+        foaf:name               "Gowtham Uma Maheswari Jaganathan" ;
+        foaf:nick               "UJ" ;
+        foaf:phone              <tel:469-951-9394> ;
+        foaf:schoolHomepage     <http://www.utdallas.edu/> ;
+        foaf:title              "Mr" ;
+        foaf:workInfoHomepage   <file:///C:/Users/Gowtham/workspace/Web_Semantics/Graduate Student> ;
+        foaf:workplaceHomepage  <http://www.utdallas.edu/> .
+
+<http://utdallas/semclass#KevenAtes>
+        <http://www.w3.org/2001/vcard-rdf/3.0#BDAY>
+                "01-Jan-1901" ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#EMAIL>
+                "atescomp@utdallas.edu" ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#FN>
+                "Keven L. Ates" ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#TITLE>
+                "Senior Lecturer" .
