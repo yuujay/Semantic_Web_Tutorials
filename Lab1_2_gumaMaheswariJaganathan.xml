@@ -1,10 +1,55 @@
 <rdf:RDF
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
-  <rdf:Description rdf:about="http://utdallas/semclass#KevenAtes">
-    <vcard:FN>Keven L. Ates</vcard:FN>
-    <vcard:BDAY>01-Jan-1901</vcard:BDAY>
-    <vcard:EMAIL>atescomp@utdallas.edu</vcard:EMAIL>
-    <vcard:TITLE>Senior Lecturer</vcard:TITLE>
-  </rdf:Description>
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:j.0="http://utdallas/semclass/"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.1="http://utdallas/semclass/movie#">
+  <rdfs:Class rdf:about="http://utdallas/semclass/book"/>
+  <rdfs:Class rdf:about="http://utdallas/semclass/person"/>
+  <rdfs:Class rdf:about="http://utdallas/semclass/movie"/>
+  <j.0:movie rdf:about="http://utdallas/semclass/movie#Dr.Strangelove">
+    <j.1:basedOn>
+      <j.0:book rdf:about="http://utdallas/semclass/book#RedAlertBook">
+        <dc:creator>
+          <j.0:person rdf:about="http://utdallas/semclass/person#PeterGeorge">
+            <vcard:BDAY>01/01/1925</vcard:BDAY>
+            <vcard:EMAIL>peter.george@gmail.com</vcard:EMAIL>
+            <vcard:NAME>Peter George</vcard:NAME>
+          </j.0:person>
+        </dc:creator>
+        <dc:language>English</dc:language>
+        <dc:title>Red Alert Book</dc:title>
+        <dc:date>01/01/1958</dc:date>
+      </j.0:book>
+    </j.1:basedOn>
+    <j.1:year>1964</j.1:year>
+    <j.1:title>Dr.Strangelove</j.1:title>
+    <j.1:director>
+      <j.0:person rdf:about="http://utdallas/semclass/person#StanleyKubrick">
+        <vcard:BDAY>01/01/1945</vcard:BDAY>
+        <vcard:EMAIL>Stanley.kubrick@gmail.com</vcard:EMAIL>
+        <vcard:NAME>Stanley Kubrick</vcard:NAME>
+      </j.0:person>
+    </j.1:director>
+  </j.0:movie>
+  <j.0:movie rdf:about="http://utdallas/semclass/movie#AClockworkOrange">
+    <j.1:basedOn>
+      <j.0:book rdf:about="http://utdallas/semclass/book#AClockworkOrangeBook">
+        <dc:creator>
+          <j.0:person rdf:about="http://utdallas/semclass/person#AnthonyBurgess">
+            <vcard:BDAY>02/02/1920</vcard:BDAY>
+            <vcard:EMAIL>anthony.burgess@gmail.com</vcard:EMAIL>
+            <vcard:NAME>Anthony Burgess</vcard:NAME>
+          </j.0:person>
+        </dc:creator>
+        <dc:language>English</dc:language>
+        <dc:title>A Clockwork Orange</dc:title>
+        <dc:date>01/01/1962</dc:date>
+      </j.0:book>
+    </j.1:basedOn>
+    <j.1:year>1971</j.1:year>
+    <j.1:title>A Clockwork Orange</j.1:title>
+    <j.1:director rdf:resource="http://utdallas/semclass/person#StanleyKubrick"/>
+  </j.0:movie>
 </rdf:RDF>

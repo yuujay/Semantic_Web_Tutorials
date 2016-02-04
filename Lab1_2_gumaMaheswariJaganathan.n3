@@ -1,9 +1,0 @@
-<http://utdallas/semclass#KevenAtes>
-        <http://www.w3.org/2001/vcard-rdf/3.0#BDAY>
-                "01-Jan-1901" ;
-        <http://www.w3.org/2001/vcard-rdf/3.0#EMAIL>
-                "atescomp@utdallas.edu" ;
-        <http://www.w3.org/2001/vcard-rdf/3.0#FN>
-                "Keven L. Ates" ;
-        <http://www.w3.org/2001/vcard-rdf/3.0#TITLE>
-                "Senior Lecturer" .
