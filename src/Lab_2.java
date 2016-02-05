@@ -100,8 +100,6 @@ public class Lab_2 {
 		PrintWriter writer = null;
 		
 		try {
-			writer = new PrintWriter("Lab1_2_gumaMaheswariJaganathan.xml");
-			modelRDF.write(writer, "RDF/XML-ABBREV");
 			writer = new PrintWriter("Lab2_3_GUmaMaheswariJaganathan.xml");
 			modelRDF.write(writer, "RDF/XML");
 			writer = new PrintWriter("Lab2_3_GUmaMaheswariJaganathan.n3");
